@@ -1,3 +1,11 @@
+"""
+Atividade Avaliativa 01 - App Mimo
+
+Objetivo:
+    Interagir com o usuário utilizando apenas o comando input(),
+    sem a necessidade de usar print().
+"""
+
 name = input("Hello! What is your name?")
 age_input = input("How old are you?")
 age = int(age_input)
