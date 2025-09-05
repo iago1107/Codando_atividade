@@ -6,32 +6,41 @@ Objetivo:
 """
 
 while True: #inicio looping
+  #entrada de dados de Input
+   
+    bot_age = 3
+    nome_input = input("Ola,qual o seu nome? ")
+    nome = str(nome_input)
+    print(f"Prazer em te conhecer {nome}") 
+    age_input = input(f"Quantos anos voce tem1?")
+    age = int(age_input)
+    color = input(f"Qual sua cor favorita {nome}?")
+    print(f"Oh, {color} é uma cor linda!")
+    print(f"Eu tenho {bot_age} anos, sou bem novinho!")
+    print("Vamos descobrir a diferença de idade entre a gente!")
+    print("Calculando...")
+    #calculo de diferença de idade
+    age_difference = age - bot_age
+    ageAbs = abs(age_difference)
+    
+    # Saida de dados, diferença de idade
+    print(f"Nossa diferença de idade {ageAbs} anos.")
   
-name = input("Hello! What is your name?")
-age_input = input("How old are you?")
-age = int(age_input)
-bot_age = 3
-age_difference = age - bot_age
-ageAbs = abs(age_difference)
-color = input("What's your favorite color?")
-print(f"Nice to meet you, {name}!") 
-# entrada de dados de Input, diferença de idade
-print(f"Você é {ageAbs} anos mais velho que eu. Eu tenho apenas {bot_age} anos!")
-print(f"Oh, {color} é uma cor linda!")
-
-#condição de verdade ou falso de diferença de idade
-if ageAbs > 3:
-  print(f"voce e {ageAbs} mais velho que eu" )
-elif ageAbs < 3:
-  print(f"eu sou mais velho que voce")
-elif ageAbs == 3:
-  print("nos temos a mesma idade")
-elif ageAbs < 0:
- print("dados invalidos")
-else:
- print("dados inválidos")
-
-#Pergunta se quer repetir
-again = input("Quer rodar de novo? (s/n): ")  
- if again.lower() != "s":
+  #condição de verdade ou falso de diferença de idade
+    if ageAbs > 3:
+      print(f"voce e {ageAbs} mais velho que eu" )
+    elif ageAbs < 3:
+      print("eu sou mais velho que voce")
+    elif ageAbs == 3:
+      print("nos temos a mesma idade")
+    elif ageAbs < 0:
+      print("dados invalidos")
+    else:
+      print("dados inválidos")
+    
+  #Pergunta se quer repetir
+    again = input("Quer rodar de novo? (s/n): ")  
+    if again.lower() != "s":
         break
+#fim looping
+print("Obrigado por participar! Ate a proxima!")
