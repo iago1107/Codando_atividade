@@ -10,7 +10,7 @@ public class AtividadeUm {
         System.out.println("digite a Temperatura em Celcius:    ");
         celcius = leitor.nextInt();
         fa = (9 * celcius + 160) / 5;
-        System.err.println("A temperatura convertida em Fahrenheri e :"+ fa);
+        System.err.println("A temperatura convertida em Fahrenhert e: "+ fa);
 
         leitor.close();
     
