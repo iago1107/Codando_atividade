@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AtividadeUm {
+public class Temperatura {
 
     public static void main(String[] args) {
 
@@ -12,15 +12,7 @@ public class AtividadeUm {
         fa = (9 * celcius + 160) / 5;
         System.err.println("A temperatura convertida em Fahrenhert e: "+ fa);
 
-        leitor.close();
-    
-
-
-
-
-        
-    }
-
+        leitor.close();          }
 
 
 
