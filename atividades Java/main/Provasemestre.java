@@ -29,7 +29,7 @@ public class Provasemestre {
         if (media >= 7){
             System.out.println("Aprovado");
         }
-        else if (media <=6 && media >=3) {
+        else if (media <=6 != media >=3) {
             System.out.println("Recuperaçao");
         }
         else {

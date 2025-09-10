@@ -10,7 +10,7 @@ public class Temperatura {
         System.out.println("digite a Temperatura em Celcius:    ");
         celcius = leitor.nextInt();
         fa = (9 * celcius + 160) / 5;
-        System.err.println("A temperatura convertida em Fahrenhert e: "+ fa);
+        System.out.println("A temperatura convertida em Fahrenhert e: "+ fa);
 
         leitor.close();          }
 
