@@ -7,7 +7,10 @@ public class SomaCincoNumeros {
 //Exercício 2 – Somar 5 números
 
 //Declaraçao
-        int numero1, numero2, numero3, numero4, numero5, soma;
+
+
+        int numero1, numero2, numero3, numero4, numero5, soma;   
+
 
 //Entrada Dados
  
